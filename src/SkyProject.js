@@ -8,6 +8,7 @@ import Title from "./images/SkyProjektsLogo.png";
 import BackgroundImage from "./Background.js";
 import Fade from "react-reveal/Fade";
 import About from "./About.js";
+import config from "./config.js";
 
 class Home extends React.Component {
   constructor(props) {
@@ -18,7 +19,9 @@ class Home extends React.Component {
       tempLoaded: false,
       locLoaded: false,
       location: "",
-      error: null
+      error: null,
+      my_key1: config.MY_KEY1,
+      my_key2: config.MY_KEY2
     };
     this.onPlaceLoaded = this.onPlaceLoaded.bind(this);
   }
@@ -37,7 +40,8 @@ class Home extends React.Component {
     const response = await fetch(
       "https://maps.googleapis.com/maps/api/geocode/json?address=" +
         location +
-        "&key=AIzaSyBaEeN76tZ8Mhl3TOi9FT9APDvlcJSksFQ"
+        "&key=" +
+        this.state.my_key1
     );
     const json = response.ok ? await response.json() : null;
     if (!json) {
@@ -53,7 +57,7 @@ class Home extends React.Component {
     );
   }
   async getTemp() {
-    let key = "2c17e2938ea852171013567aacd1dcea";
+    let key = this.state.my_key2;
     let unit = "imperial";
     let results = this.state.geocode.results;
     let lat;
@@ -68,7 +72,8 @@ class Home extends React.Component {
           "&lon=" +
           long +
           "&units=imperial" +
-          "&appid=2c17e2938ea852171013567aacd1dcea"
+          "&appid=" +
+          key
       );
       const json = response.ok ? await response.json() : null;
       if (!json) {
