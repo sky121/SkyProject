@@ -1,0 +1,81 @@
+.search {
+  width: 500px;
+  height: 40px;
+
+  background: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 242, 0.267) 0%,
+    rgba(195, 0, 255, 0.336) 100%
+  );
+  border-radius: 3px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+}
+
+.search input {
+  width: 370px;
+  padding: 10px 5px;
+  float: left;
+  color: #ffffff;
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+  font-size: 20px;
+  margin-top: -6px;
+}
+
+.search input:focus {
+  outline: 0;
+  background: transparent;
+  font-size: 20px;
+}
+
+.search button {
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+  border-radius: 0 3px 3px 0;
+  font-size: 20px;
+  margin-top: -2px;
+}
+
+.search button:hover {
+  background: #fff;
+  color: #444;
+  margin-top: 0.1px;
+}
+.search button:active {
+  box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.search button:focus {
+  outline: 0;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
