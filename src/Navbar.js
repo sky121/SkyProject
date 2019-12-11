@@ -20,7 +20,7 @@ import {
   Route
 } from "react-router-dom";
 import Logo from "./images/SPlogo.png";
-import Home from "./Home.js";
+import Home from "./SkyProject.js";
 import Contact from "./Contact.js";
 import About from "./About.js";
 
@@ -52,7 +52,7 @@ class NavbarPage extends Component {
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
               <MDBNavItem active>
-                <MDBNavLink to="/home">Home</MDBNavLink>
+                <MDBNavLink to="/SkyProject">Home</MDBNavLink>
               </MDBNavItem>
               <MDBNavItem>
                 <MDBNavLink to="/contact">Contact</MDBNavLink>
@@ -64,10 +64,10 @@ class NavbarPage extends Component {
           </MDBCollapse>
         </MDBNavbar>
         <div>
-          <Route path="/home" component={Home} />
+          <Route path="/SkyProject" component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />
-          <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/" to="/SkyProject" />
         </div>
       </Router>
     );
