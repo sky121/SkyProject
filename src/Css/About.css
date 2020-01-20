@@ -1,0 +1,97 @@
+.about__title {
+  font-size: 40pt;
+  color: #ffff;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+.main {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 1000px;
+  position: absolute; /* or absolute */
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+.about {
+  font-size: 40pt;
+  background-size: 10%;
+
+  background-image: url(../images/skyBackground.jpg);
+  overflow: hidden;
+
+  -webkit-animation: guideFade 12s infinite;
+  animation: guideFade 12s infinite;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes guideFade {
+  0% {
+    background-image: url("../images/rain.jpg");
+  }
+  20% {
+    background-image: url("../images/thunderstorm.jpg");
+  }
+  40% {
+    background-image: url("../images/clear.png");
+  }
+  60% {
+    background-image: url("../images/drizzle.jpg");
+  }
+  80% {
+    background-image: url("../images/mist.jpg");
+  }
+  100% {
+    background-image: url("../images/rain.jpg");
+  }
+}
+@-webkit-keyframes guideFade {
+  0% {
+    background-image: url("../images/rain.jpg");
+  }
+  20% {
+    background-image: url("../images/thunderstorm.jpg");
+  }
+  40% {
+    background-image: url("../images/clear.png");
+  }
+  60% {
+    background-image: url("../images/drizzle.jpg");
+  }
+  80% {
+    background-image: url("../images/mist.jpg");
+  }
+  100% {
+    background-image: url("../images/rain.jpg");
+  }
+}
+@-moz-keyframes guideFade {
+  /* Firefox */
+  0% {
+    background-image: url("../images/rain.jpg");
+  }
+  20% {
+    background-image: url("../images/thunderstorm.jpg");
+  }
+  40% {
+    background-image: url("../images/clear.png");
+  }
+  60% {
+    background-image: url("../images/drizzle.jpg");
+  }
+  80% {
+    background-image: url("../images/mist.jpg");
+  }
+  100% {
+    background-image: url("../images/rain.jpg");
+  }
+}

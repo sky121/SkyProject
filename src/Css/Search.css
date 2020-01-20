@@ -10,7 +10,7 @@
   );
   border-radius: 3px;
   border: 1px solid #fff;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -36,13 +36,13 @@
 }
 
 .search button {
-  position: relative;
+  position: fixed;
   float: right;
   border: 0;
   padding: 0;
   cursor: pointer;
   height: 40px;
-  width: 120px;
+  width: 130px;
   color: #fff;
   background: transparent;
   border-left: 1px solid #fff;

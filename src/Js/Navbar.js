@@ -19,7 +19,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Logo from "./images/SPlogo.png";
+import Logo from "../images/SPlogo.png";
 import Home from "./SkyProject.js";
 import Contact from "./Contact.js";
 import About from "./About.js";

@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import Navbar from "./Navbar.js";
-import * as serviceWorker from "./serviceWorker";
+import "./Css/index.css";
+import Navbar from "./Js/Navbar.js";
+import * as serviceWorker from "./Js/serviceWorker";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";

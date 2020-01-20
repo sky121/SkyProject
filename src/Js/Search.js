@@ -3,7 +3,7 @@ import React from "react";
 
 // Import React Scrit Libraray to load Google object
 
-import "./Search.css";
+import "../Css/Search.css";
 /* global google */
 
 class Search extends React.Component {

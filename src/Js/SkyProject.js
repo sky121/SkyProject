@@ -1,14 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./Home.css";
-
+import "../Css/Home.css";
 import SearchBar from "./Search.js";
-import Navbar from "./Navbar.js";
-import Title from "./images/SkyProjektsLogo.png";
+import Title from "../images/SkyProjektsLogo.png";
 import BackgroundImage from "./Background.js";
 import Fade from "react-reveal/Fade";
-import About from "./About.js";
-import config from "./config.js";
+import config from "../config.js";
 
 class Home extends React.Component {
   constructor(props) {
@@ -98,7 +94,9 @@ class Home extends React.Component {
         <div className="Title">
           <img src={Title} alt="Title" />
         </div>
-
+        <div className="guideText">
+          Find the weather of any location across the globe
+        </div>
         {tempLoaded && weatherData.weather && (
           <Fade duration={5000}>
             <div className="Background">
@@ -109,6 +107,9 @@ class Home extends React.Component {
               Today will be {weatherData.main.temp}℉ with a forcast of{" "}
               {weatherData.weather[0].main}
             </div>
+            <a className="Back" href="javascript:window.location.reload(true)">
+              Back
+            </a>
           </Fade>
         )}
 
