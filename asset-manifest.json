@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/SkyProject/static/css/main.799a4cbb.chunk.css",
+    "main.js": "/SkyProject/static/js/main.7d7b27ee.chunk.js",
+    "main.js.map": "/SkyProject/static/js/main.7d7b27ee.chunk.js.map",
+    "runtime-main.js": "/SkyProject/static/js/runtime-main.7049bf21.js",
+    "runtime-main.js.map": "/SkyProject/static/js/runtime-main.7049bf21.js.map",
+    "static/css/2.dc210dd5.chunk.css": "/SkyProject/static/css/2.dc210dd5.chunk.css",
+    "static/js/2.e4c4d5ad.chunk.js": "/SkyProject/static/js/2.e4c4d5ad.chunk.js",
+    "static/js/2.e4c4d5ad.chunk.js.map": "/SkyProject/static/js/2.e4c4d5ad.chunk.js.map",
+    "index.html": "/SkyProject/index.html",
+    "precache-manifest.4887942342edbe335fb1d81653b378e2.js": "/SkyProject/precache-manifest.4887942342edbe335fb1d81653b378e2.js",
+    "service-worker.js": "/SkyProject/service-worker.js",
+    "static/css/2.dc210dd5.chunk.css.map": "/SkyProject/static/css/2.dc210dd5.chunk.css.map",
+    "static/css/main.799a4cbb.chunk.css.map": "/SkyProject/static/css/main.799a4cbb.chunk.css.map",
+    "static/js/2.e4c4d5ad.chunk.js.LICENSE": "/SkyProject/static/js/2.e4c4d5ad.chunk.js.LICENSE",
+    "static/media/mdb.css": "/SkyProject/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/SkyProjektsLogo.png": "/SkyProject/static/media/SkyProjektsLogo.08a440a3.png",
+    "static/media/ash.jpeg": "/SkyProject/static/media/ash.dd90319e.jpeg",
+    "static/media/About.css": "/SkyProject/static/media/thunderstorm.8424b7e3.jpg",
+    "static/media/clouds.jpeg": "/SkyProject/static/media/clouds.5f78653f.jpeg",
+    "static/media/dust.jpg": "/SkyProject/static/media/dust.eefd43c3.jpg",
+    "static/media/all.min.css": "/SkyProject/static/media/fa-solid-900.f14c3b2f.ttf",
+    "static/media/fog.jpg": "/SkyProject/static/media/fog.8c5fe9eb.jpg",
+    "static/media/haze.jpg": "/SkyProject/static/media/haze.f7e781c7.jpg",
+    "static/media/sand.jpg": "/SkyProject/static/media/sand.415f9376.jpg",
+    "static/media/smoke.jpeg": "/SkyProject/static/media/smoke.b0dbda26.jpeg",
+    "static/media/snow.jpg": "/SkyProject/static/media/snow.2b91c021.jpg",
+    "static/media/squall.jpg": "/SkyProject/static/media/squall.c2987fbb.jpg",
+    "static/media/tornado.jpg": "/SkyProject/static/media/tornado.afbbf7f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7049bf21.js",
+    "static/css/2.dc210dd5.chunk.css",
+    "static/js/2.e4c4d5ad.chunk.js",
+    "static/css/main.799a4cbb.chunk.css",
+    "static/js/main.7d7b27ee.chunk.js"
+  ]
+}
