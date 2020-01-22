@@ -6,19 +6,9 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse,
-  MDBFormInline,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem
+  MDBCollapse
 } from "mdbreact";
-import {
-  Redirect,
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { Redirect, BrowserRouter as Router, Route } from "react-router-dom";
 import Logo from "../images/SPlogo.png";
 import Home from "./SkyProject.js";
 import Contact from "./Contact.js";

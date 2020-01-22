@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "../Css/Background.css";
 import clear from "../images/clear.png";
 import clouds from "../images/clouds.jpeg";

@@ -1,7 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Particles from "react-particles-js";
-import Navbar from "./Navbar.js";
+
 import "../Css/Contact.css";
 class Contact extends React.Component {
   constructor(props) {

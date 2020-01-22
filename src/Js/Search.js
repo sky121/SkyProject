@@ -24,7 +24,6 @@ class Search extends React.Component {
   }
 
   async handlePlaceChanged() {
-    const place = this.autocomplete.getPlace();
     await this.props.onPlaceLoaded(document.getElementById("search").value);
   }
 
