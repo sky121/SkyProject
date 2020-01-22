@@ -8,6 +8,8 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import Particles from "react-particles-js";
 import bg from "./images/skyBackground.jpg";
+import "./Css/index.css";
+import "./Css/index.css";
 const particleOpt = {
   particles: {
     number: {
