@@ -39,7 +39,14 @@ class App extends React.Component {
           width: "100%",
           height: "100%"
         }}
-      ></div>
+      >
+        <div className="Navbar">
+          <Navbar bg={bg} />
+        </div>
+        <div>
+          <Particles params={particleOpt} />
+        </div>
+      </div>
     );
   }
 }
