@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SkyProject/static/css/main.799a4cbb.chunk.css",
-    "main.js": "/SkyProject/static/js/main.7d7b27ee.chunk.js",
-    "main.js.map": "/SkyProject/static/js/main.7d7b27ee.chunk.js.map",
+    "main.js": "/SkyProject/static/js/main.d331bdfe.chunk.js",
+    "main.js.map": "/SkyProject/static/js/main.d331bdfe.chunk.js.map",
     "runtime-main.js": "/SkyProject/static/js/runtime-main.7049bf21.js",
     "runtime-main.js.map": "/SkyProject/static/js/runtime-main.7049bf21.js.map",
     "static/css/2.dc210dd5.chunk.css": "/SkyProject/static/css/2.dc210dd5.chunk.css",
     "static/js/2.e4c4d5ad.chunk.js": "/SkyProject/static/js/2.e4c4d5ad.chunk.js",
     "static/js/2.e4c4d5ad.chunk.js.map": "/SkyProject/static/js/2.e4c4d5ad.chunk.js.map",
     "index.html": "/SkyProject/index.html",
-    "precache-manifest.4887942342edbe335fb1d81653b378e2.js": "/SkyProject/precache-manifest.4887942342edbe335fb1d81653b378e2.js",
+    "precache-manifest.f354eac0eb1f4cd2cc32c4d55bdfff29.js": "/SkyProject/precache-manifest.f354eac0eb1f4cd2cc32c4d55bdfff29.js",
     "service-worker.js": "/SkyProject/service-worker.js",
     "static/css/2.dc210dd5.chunk.css.map": "/SkyProject/static/css/2.dc210dd5.chunk.css.map",
     "static/css/main.799a4cbb.chunk.css.map": "/SkyProject/static/css/main.799a4cbb.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/css/2.dc210dd5.chunk.css",
     "static/js/2.e4c4d5ad.chunk.js",
     "static/css/main.799a4cbb.chunk.css",
-    "static/js/main.7d7b27ee.chunk.js"
+    "static/js/main.d331bdfe.chunk.js"
   ]
 }
