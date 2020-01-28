@@ -104,7 +104,7 @@ class Home extends React.Component {
             </div>
 
             <div className={"Temp"}>
-              Today will be {weatherData.main.temp}℉ with a forcast of{" "}
+              Today will be {weatherData.main.temp}℉ with a forecast of{" "}
               {weatherData.weather[0].main}
             </div>
             <a className="Back" href="javascript:window.location.reload(true)">
